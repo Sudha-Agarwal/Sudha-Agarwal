@@ -1,3 +1,4 @@
+import IT.Employee;
 
 public class FirstJavaClass {
 
@@ -10,25 +11,33 @@ public class FirstJavaClass {
 		student1.name = "Sudha";
 		student1.rollNo = 123;
 		
+		
 		//way 2: or we can use constructors to assign values to properties/instance variables
 		Student student2 = new Student("Shreyansh", 234, "FSD Phase1");
 		System.out.println(student2.name);	
 		
 		
+		//student1 and student2 are called as reference variable
+		
+		
+		Employee obj = new Employee();
 	}
 }
-class Student{
+class Student{ //encapsulation
 	String name; //----properties or instance variables
 	int rollNo;
 	String courseEnrolled;	
 	
 	
-	//methods
+	//methods or behaviour
 	void attendSession(){
+		
+		Student obj = new Student();
+		
 		//open webex
 	}	
 	
-	//constructor overloading
+	//constructor overloading or polymorphism
 	
 	//constructor --> no argument constructor
 	Student(){	
