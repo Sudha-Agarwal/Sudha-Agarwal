@@ -12,10 +12,7 @@ public class Person {
 		protected Person(String name, int age){
 			this.name = name;
 			this.age = age;		
-		}
-	
-	
-
+		}	
 	
 	
 	protected void print() {					
