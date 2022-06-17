@@ -15,6 +15,7 @@ public class Person {
 		}	
 	
 	
+	
 	protected void print() {					
 		System.out.println("Name: " + this.name + " age: " + this.age);
 		
